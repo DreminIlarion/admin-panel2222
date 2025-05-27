@@ -43,7 +43,7 @@ function App() {
               <Events />
             
           } />
-          {/* <Route path="/news" element={
+           <Route path="/news" element={
             
               <News />
             
@@ -52,7 +52,7 @@ function App() {
             
               <Camera />
            
-          } /> */}
+          } /> 
           
           {/* Маршрут для несуществующих страниц */}
           <Route path="*" element={<NotFound />} />
